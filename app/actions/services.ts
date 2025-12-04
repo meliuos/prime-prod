@@ -15,22 +15,18 @@ export async function createService(input: CreateServiceInput) {
     // Validate input
     const validatedData = createServiceSchema.parse(input);
 
-    // Generate slug from title
-    const slug = validatedData.title
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/(^-|-$)/g, '');
-
     // Insert service
     const [newService] = await db
         .insert(services)
         .values({
-            name: validatedData.title,
-            slug,
+            name: validatedData.name,
+            slug: validatedData.slug,
             description: validatedData.description,
             category: validatedData.category,
-            price: validatedData.basePrice.toString(),
-            deliveryTime: validatedData.deliveryDays,
+            price: validatedData.price,
+            deliveryTime: validatedData.deliveryTime,
+            icon: validatedData.icon,
+            color: validatedData.color,
             imageUrl: validatedData.imageUrl,
             isActive: validatedData.isActive,
         })
@@ -51,17 +47,14 @@ export async function updateService(input: UpdateServiceInput) {
 
     // Build update object
     const updates: any = {};
-    if (updateData.title) {
-        updates.name = updateData.title;
-        updates.slug = updateData.title
-            .toLowerCase()
-            .replace(/[^a-z0-9]+/g, '-')
-            .replace(/(^-|-$)/g, '');
-    }
-    if (updateData.description) updates.description = updateData.description;
-    if (updateData.category) updates.category = updateData.category;
-    if (updateData.basePrice) updates.price = updateData.basePrice.toString();
-    if (updateData.deliveryDays !== undefined) updates.deliveryTime = updateData.deliveryDays;
+    if (updateData.name !== undefined) updates.name = updateData.name;
+    if (updateData.slug !== undefined) updates.slug = updateData.slug;
+    if (updateData.description !== undefined) updates.description = updateData.description;
+    if (updateData.category !== undefined) updates.category = updateData.category;
+    if (updateData.price !== undefined) updates.price = updateData.price;
+    if (updateData.deliveryTime !== undefined) updates.deliveryTime = updateData.deliveryTime;
+    if (updateData.icon !== undefined) updates.icon = updateData.icon;
+    if (updateData.color !== undefined) updates.color = updateData.color;
     if (updateData.imageUrl !== undefined) updates.imageUrl = updateData.imageUrl;
     if (updateData.isActive !== undefined) updates.isActive = updateData.isActive;
     updates.updatedAt = new Date();

@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "ProServices - Professional FiveM & Design Services",
+    title: "Prime Prod - Professional FiveM & Design Services",
     description: "Premium FiveM trailers, graphic design, and custom services",
 };
 

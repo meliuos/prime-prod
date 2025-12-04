@@ -129,7 +129,7 @@ export function Footer() {
                 {/* Bottom bar */}
                 <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-muted-foreground text-sm">
-                        © {currentYear} ProServices. All rights reserved.
+                        © {currentYear} Prime Prod. All rights reserved.
                     </p>
                     <p className="text-muted-foreground text-sm">
                         Made with <span className="text-red-500">❤</span> for our clients
