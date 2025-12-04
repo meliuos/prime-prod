@@ -1,0 +1,146 @@
+{
+    "common": {
+        "welcome": "مرحباً",
+        "login": "تسجيل الدخول",
+        "logout": "تسجيل الخروج",
+        "signup": "إنشاء حساب",
+        "submit": "إرسال",
+        "cancel": "إلغاء",
+        "save": "حفظ",
+        "delete": "حذف",
+        "edit": "تعديل",
+        "view": "عرض",
+        "back": "رجوع",
+        "next": "التالي",
+        "loading": "جاري التحميل..."
+    },
+    "nav": {
+        "home": "الرئيسية",
+        "services": "الخدمات",
+        "portfolio": "معرض الأعمال",
+        "testimonials": "آراء العملاء",
+        "dashboard": "لوحة التحكم",
+        "orders": "الطلبات",
+        "profile": "الملف الشخصي"
+    },
+    "auth": {
+        "signInWithDiscord": "تسجيل الدخول بواسطة Discord",
+        "signInWithEmail": "تسجيل الدخول بالبريد الإلكتروني",
+        "emailPlaceholder": "أدخل بريدك الإلكتروني",
+        "sendMagicLink": "إرسال رابط سحري",
+        "checkEmail": "تحقق من بريدك الإلكتروني للحصول على الرابط السحري",
+        "unauthorized": "غير مصرح",
+        "unauthorizedMessage": "ليس لديك إذن للوصول إلى هذه الصفحة"
+    },
+    "services": {
+        "title": "خدماتنا",
+        "viewAll": "عرض جميع الخدمات",
+        "orderNow": "اطلب الآن",
+        "price": "السعر",
+        "deliveryTime": "وقت التسليم",
+        "days": "{count} أيام"
+    },
+    "categories": {
+        "graphic_design": "التصميم الجرافيكي",
+        "fivem_trailer": "إعلانات FiveM",
+        "custom_clothing": "ملابس مخصصة",
+        "custom_cars": "سيارات مخصصة",
+        "streaming_design": "تصميم البث",
+        "business_branding": "العلامة التجارية للأعمال",
+        "discord_design": "تصميم Discord",
+        "3d_design": "تصميم ثلاثي الأبعاد",
+        "2d_design": "تصميم ثنائي الأبعاد"
+    },
+    "orders": {
+        "myOrders": "طلباتي",
+        "orderNumber": "طلب رقم",
+        "status": "الحالة",
+        "amount": "المبلغ",
+        "createdAt": "تاريخ الإنشاء",
+        "viewDetails": "عرض التفاصيل",
+        "requirements": "المتطلبات",
+        "deliverables": "المخرجات",
+        "addRequirements": "إضافة متطلبات"
+    },
+    "dashboard": {
+        "admin": {
+            "title": "لوحة تحكم المدير",
+            "manageServices": "إدارة الخدمات",
+            "manageOrders": "إدارة الطلبات",
+            "manageUsers": "إدارة المستخدمين",
+            "analytics": "التحليلات"
+        },
+        "agent": {
+            "title": "لوحة تحكم الوكيل",
+            "assignedOrders": "الطلبات المعينة",
+            "uploadDeliverables": "رفع المخرجات",
+            "acceptOrder": "قبول الطلب",
+            "denyOrder": "رفض الطلب"
+        },
+        "user": {
+            "title": "لوحة التحكم",
+            "recentOrders": "الطلبات الأخيرة"
+        }
+    },
+    "landing": {
+        "hero": {
+            "badge": "التميز الإبداعي",
+            "title": "حول رؤيتك إلى",
+            "titleHighlight": "واقع",
+            "subtitle": "خدمات إبداعية احترافية لخوادم FiveM والبث المباشر والعلامات التجارية",
+            "cta": "ابدأ الآن",
+            "viewWork": "شاهد أعمالنا",
+            "trustBadge": "أكثر من 500 عميل سعيد"
+        },
+        "servicesShowcase": {
+            "title": "خدماتنا الإبداعية",
+            "subtitle": "حلول تصميم وتطوير متميزة مصممة خصيصاً لاحتياجاتك",
+            "fivemTrailers": {
+                "title": "إعلانات FiveM",
+                "description": "إعلانات سينمائية للخوادم تجذب وتحول"
+            },
+            "logoDesign": {
+                "title": "تصميم الشعارات",
+                "description": "هويات تجارية فريدة تبرز"
+            },
+            "streamingPackages": {
+                "title": "باقات البث",
+                "description": "تراكبات وتنبيهات احترافية للمذيعين"
+            },
+            "bannerDesign": {
+                "title": "تصميم البانرات",
+                "description": "رسومات جذابة لجميع المنصات"
+            },
+            "motionGraphics": {
+                "title": "الرسوم المتحركة",
+                "description": "رسوم متحركة ديناميكية تحيي محتواك"
+            },
+            "brandingPackages": {
+                "title": "باقات العلامة التجارية",
+                "description": "حلول هوية تجارية كاملة"
+            }
+        },
+        "portfolio": {
+            "title": "معرض أعمالنا",
+            "subtitle": "استكشف أحدث أعمالنا الإبداعية ومشاريعنا الناجحة",
+            "viewMore": "عرض المعرض الكامل",
+            "viewDetails": "عرض التفاصيل",
+            "similarWork": "أعمال مشابهة"
+        },
+        "testimonials": {
+            "title": "ماذا يقول عملاؤنا",
+            "subtitle": "لا تأخذ كلامنا فقط - استمع من عملائنا الراضين"
+        },
+        "cta": {
+            "title": "هل أنت مستعد لرفع مستوى علامتك التجارية؟",
+            "subtitle": "انضم إلى مئات العملاء الراضين وحول رؤيتك إلى واقع",
+            "button": "ابدأ مشروعك",
+            "contact": "اتصل بنا",
+            "stats": {
+                "clients": "عميل سعيد",
+                "projects": "مشروع منجز",
+                "rating": "متوسط التقييم"
+            }
+        }
+    }
+}

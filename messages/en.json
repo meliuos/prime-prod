@@ -1,0 +1,146 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "logout": "Logout",
+    "signup": "Sign Up",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "loading": "Loading..."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "dashboard": "Dashboard",
+    "orders": "Orders",
+    "profile": "Profile"
+  },
+  "auth": {
+    "signInWithDiscord": "Sign in with Discord",
+    "signInWithEmail": "Sign in with Email",
+    "emailPlaceholder": "Enter your email",
+    "sendMagicLink": "Send Magic Link",
+    "checkEmail": "Check your email for the magic link",
+    "unauthorized": "Unauthorized",
+    "unauthorizedMessage": "You don't have permission to access this page"
+  },
+  "services": {
+    "title": "Our Services",
+    "viewAll": "View All Services",
+    "orderNow": "Order Now",
+    "price": "Price",
+    "deliveryTime": "Delivery Time",
+    "days": "{count} days"
+  },
+  "categories": {
+    "graphic_design": "Graphic Design",
+    "fivem_trailer": "FiveM Trailer",
+    "custom_clothing": "Custom Clothing",
+    "custom_cars": "Custom Cars",
+    "streaming_design": "Streaming Design",
+    "business_branding": "Business Branding",
+    "discord_design": "Discord Design",
+    "3d_design": "3D Design",
+    "2d_design": "2D Design"
+  },
+  "orders": {
+    "myOrders": "My Orders",
+    "orderNumber": "Order #",
+    "status": "Status",
+    "amount": "Amount",
+    "createdAt": "Created",
+    "viewDetails": "View Details",
+    "requirements": "Requirements",
+    "deliverables": "Deliverables",
+    "addRequirements": "Add Requirements"
+  },
+  "dashboard": {
+    "admin": {
+      "title": "Admin Dashboard",
+      "manageServices": "Manage Services",
+      "manageOrders": "Manage Orders",
+      "manageUsers": "Manage Users",
+      "analytics": "Analytics"
+    },
+    "agent": {
+      "title": "Agent Dashboard",
+      "assignedOrders": "Assigned Orders",
+      "uploadDeliverables": "Upload Deliverables",
+      "acceptOrder": "Accept Order",
+      "denyOrder": "Deny Order"
+    },
+    "user": {
+      "title": "My Dashboard",
+      "recentOrders": "Recent Orders"
+    }
+  },
+  "landing": {
+    "hero": {
+      "badge": "Creative Excellence",
+      "title": "Transform Your Vision Into",
+      "titleHighlight": "Reality",
+      "subtitle": "Professional creative services for FiveM servers, streaming, and business branding",
+      "cta": "Get Started",
+      "viewWork": "View Our Work",
+      "trustBadge": "500+ Happy Clients"
+    },
+    "servicesShowcase": {
+      "title": "Our Creative Services",
+      "subtitle": "Premium design and development solutions tailored to your needs",
+      "fivemTrailers": {
+        "title": "FiveM Trailers",
+        "description": "Cinematic server trailers that captivate and convert"
+      },
+      "logoDesign": {
+        "title": "Logo Design",
+        "description": "Unique brand identities that stand out"
+      },
+      "streamingPackages": {
+        "title": "Streaming Packages",
+        "description": "Professional overlays and alerts for streamers"
+      },
+      "bannerDesign": {
+        "title": "Banner Design",
+        "description": "Eye-catching graphics for all platforms"
+      },
+      "motionGraphics": {
+        "title": "Motion Graphics",
+        "description": "Dynamic animations that bring your content to life"
+      },
+      "brandingPackages": {
+        "title": "Branding Packages",
+        "description": "Complete brand identity solutions"
+      }
+    },
+    "portfolio": {
+      "title": "Our Portfolio",
+      "subtitle": "Explore our latest creative work and successful projects",
+      "viewMore": "View Full Portfolio",
+      "viewDetails": "View Details",
+      "similarWork": "Similar Work"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "subtitle": "Don't just take our word for it - hear from our satisfied customers"
+    },
+    "cta": {
+      "title": "Ready to Elevate Your Brand?",
+      "subtitle": "Join hundreds of satisfied clients and turn your vision into reality",
+      "button": "Start Your Project",
+      "contact": "Contact Us",
+      "stats": {
+        "clients": "Happy Clients",
+        "projects": "Projects Done",
+        "rating": "Average Rating"
+      }
+    }
+  }
+}

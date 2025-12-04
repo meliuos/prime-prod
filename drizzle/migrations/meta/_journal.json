@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1764456323821,
+      "tag": "0000_quick_spacker_dave",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1764798315889,
+      "tag": "0001_numerous_revanche",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1764806142359,
+      "tag": "0002_robust_skin",
+      "breakpoints": true
+    }
+  ]
+}
