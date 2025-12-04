@@ -11,6 +11,8 @@ export default function NotFound() {
     const textRef = useRef<HTMLDivElement>(null);
 
     useGSAP(() => {
+        if (!containerRef.current || !textRef.current) return;
+
         const tl = gsap.timeline();
 
         // Initial fade in
@@ -21,14 +23,16 @@ export default function NotFound() {
         });
 
         // Text animations
-        tl.from(textRef.current?.children || [], {
-            y: 30,
-            opacity: 0,
-            duration: 0.8,
-            stagger: 0.2,
-            ease: 'back.out(1.7)',
-        }, '-=0.5');
-
+        const children = Array.from(textRef.current.children);
+        if (children.length > 0) {
+            tl.from(children, {
+                y: 30,
+                opacity: 0,
+                duration: 0.8,
+                stagger: 0.2,
+                ease: 'back.out(1.7)',
+            }, '-=0.5');
+        }
     }, { scope: containerRef });
 
     return (

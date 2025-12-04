@@ -21,6 +21,8 @@ export const metadata: Metadata = {
     description: "Premium FiveM trailers, graphic design, and custom services",
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function Layout({
     children,
 }: {
